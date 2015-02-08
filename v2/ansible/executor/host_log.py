@@ -36,7 +36,7 @@ class HostLog:
    def get_tasks(self, are_executed=None, are_changed=None, are_successful=None):
        assert False
 
-   def get_current_running_task(self)
+   def get_current_running_task(self):
        # atomic decorator likely required?
        assert False
 
