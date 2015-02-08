@@ -170,7 +170,7 @@ class ActionModule(ActionBase):
         #    module_args = "CHECKMODE=True"
 
         # run the module and store the result
-        result = self.runner._execute_module('synchronize', module_args=, complex_args=options, task_vars=task_vars)
+        result = self.runner._execute_module('synchronize', complex_args=options, task_vars=task_vars)
 
         return result
 
